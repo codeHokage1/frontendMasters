@@ -1,78 +1,70 @@
-*{
-   box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
-body{
-   position: relative;
-   height: 100vh;
-   margin: 0;
-   padding: 0;
-   font-family: 'Outfit', sans-serif;
-   background-color: hsl(212, 45%, 89%);
-   padding: 2em;
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: "Outfit", sans-serif;
+	background-color: hsl(212, 45%, 89%);
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
-.card{
-   background-color: hsl(0, 0%, 100%);
-   border-radius: 15px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   padding: 0.75em;
+.card {
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0.75em;
+	margin: 0 auto 10px;
 }
-.card img{
-   border-radius: 10px;
-   width: 100%;
-   margin-bottom: 10px;
-
+.card img {
+	border-radius: 10px;
+	width: 100%;
+	margin-bottom: 10px;
 }
-h1{
-   font-weight: 700;
-   color: hsl(218, 44%, 22%);
-   font-size: 1.5rem;
-   padding: 0 .5em;
+h1 {
+	font-weight: 700;
+	color: hsl(218, 44%, 22%);
+	font-size: 1.5rem;
+	padding: 0 0.5em;
 }
-p{
-   color: hsl(220, 15%, 55%);
-   font-weight: 400;
-   padding: 0 1em;
-   font-size: 1rem;
-   margin-top: 0;
-   margin-bottom: 1em;
-   line-height: 1.5;
+p {
+	color: hsl(220, 15%, 55%);
+	font-weight: 400;
+	padding: 0 1em;
+	font-size: 1rem;
+	margin-top: 0;
+	margin-bottom: 1em;
+	line-height: 1.5;
 }
-
 
 .attribution {
-   position: absolute;
-   bottom: 10px;
-   right: 0;
-   left: 0;
+	bottom: 10px;
+	right: 0;
+	left: 0;
 	font-size: 11px;
 	text-align: center;
+   /* margin-top: auto; */
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
 
-
-@media screen and (min-width: 700px){
-   body{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-   }
-   .card{
-      width: 30%;
-      margin: 0 auto 10px;
-   }
-   .attribution{
-      margin-top: auto;
-   }
-   h1{
-      font-size: 1.7rem;
-   }
-   p{
-      font-size: 1.1rem;
-   }
+@media screen and (min-width: 700px) {
+	.card {
+		width: 25%;
+		margin: 0 auto 10px;
+	}
+	h1 {
+		font-size: 1.2rem;
+	}
+	p {
+		font-size: 1rem;
+	}
 }
