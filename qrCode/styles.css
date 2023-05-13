@@ -45,12 +45,9 @@ p {
 }
 
 .attribution {
-	bottom: 10px;
-	right: 0;
-	left: 0;
-	font-size: 11px;
+   margin-bottom: 20px;
+   font-size: 11px;
 	text-align: center;
-   /* margin-top: auto; */
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
