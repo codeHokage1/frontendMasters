@@ -25,12 +25,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop View](./assets/images/desktop.png)
+![Mobile View](./assets/images/mobile.png)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [AGitHub Repo](https://github.com/codeHokage1/frontendMasters/tree/main/resultSummary)
+- Live Site URL: [Live Link](https://codehokage1.github.io/frontendMasters/resultSummary/)
 
 ## My process
 
