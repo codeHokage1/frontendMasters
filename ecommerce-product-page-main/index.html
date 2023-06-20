@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Frontend Mentor | E-commerce product page</title>
+
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<img src="./images/logo.svg" alt="Sneakers Logo" class="logo" />
+				<ul class="menu-items">
+					<li><a href="#">Collections</a></li>
+					<li><a href="#">Men</a></li>
+					<li><a href="#">Women</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+
+				<ul class="cart-and-avatar">
+					<li>
+						<img src="./images/icon-cart.svg" alt="Icon of cart" class="cart" />
+					</li>
+					<li>
+						<img
+							src="./images/farhan.jpeg"
+							alt="Avatar of user"
+							class="avatar"
+						/>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section class="item-gallery">
+				<img
+					src="./images/image-product-1.jpg"
+					alt="Sneaker"
+					class="item-image"
+				/>
+				<div class="item-thumbnails">
+					<img
+						src="./images/image-product-1-thumbnail.jpg"
+						alt="Sneaker"
+						class="item-thumbnail"
+					/>
+					<img
+						src="./images/image-product-2-thumbnail.jpg"
+						alt="Sneaker"
+						class="item-thumbnail"
+					/>
+					<img
+						src="./images/image-product-3-thumbnail.jpg"
+						alt="Sneaker"
+						class="item-thumbnail"
+					/>
+					<img
+						src="./images/image-product-4-thumbnail.jpg"
+						alt="Sneaker"
+						class="item-thumbnail"
+					/>
+				</div>
+			</section>
+
+			<section class="item-details">
+				<h3>SNEAKER COMPANY</h3>
+				<h2>Fall Limited Edition Sneakers</h2>
+				<p>
+					These low-profile sneakers are your perfect casual wear companion.
+					Featuring a durable rubber outer sole, they’ll withstand everything
+					the weather can offer.
+				</p>
+
+				<div class="price-details">
+					<div class="price-and-discount">
+						<p class="price">$125.00</p>
+						<p class="discount">50%</p>
+					</div>
+					<p class="original-price">$250.00</p>
+				</div>
+
+				<div class="cart-buttons">
+					<div class="buttons">
+						<button id="remove">
+							<img src="./images/icon-minus.svg" alt="remove from cart" />
+						</button>
+						<p>0</p>
+						<button id="add">
+							<img src="./images/icon-plus.svg" alt="add to cart" />
+						</button>
+					</div>
+					<button id="add-to-cart">
+						<img src="./images/icon-cart2.svg" alt="cart" />
+						Add to cart
+					</button>
+				</div>
+			</section>
+		</main>
+
+		<footer class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Your Name Here</a>.
+		</footer>
+	</body>
+</html>
