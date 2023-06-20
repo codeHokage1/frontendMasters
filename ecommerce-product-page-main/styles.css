@@ -13,11 +13,13 @@ footer {
 	max-width: 80%;
 	margin: 0 auto;
 }
-header {
-	border-bottom: 1px solid hsl(219, 9%, 45%);
-	padding: 2em 0;
+
+header{
+   position: relative;
 }
 nav {
+   border-bottom: 1px solid hsl(219, 9%, 45%);
+	/* padding: 2em 0; */
 	display: flex;
 	align-items: center;
 	gap: 50px;
@@ -29,18 +31,24 @@ nav ul {
 	margin: 0;
 	padding: 0;
 }
+.menu-items li{
+   padding: 2em 0;
+}
 nav a {
 	text-decoration: none;
 	color: hsl(219, 9%, 45%);
 }
 nav a:hover{
+   color: hsl(220, 13%, 13%);
+}
+.menu-items li:hover{
    border-bottom: 2px solid hsl(26, 100%, 55%);
 }
 .cart-and-avatar {
 	margin-left: auto;
 	display: flex;
 	align-items: center;
-	gap: 30px;
+	gap: 50px;
 }
 .cart-and-avatar img {
 	cursor: pointer;
@@ -49,6 +57,37 @@ nav a:hover{
 	width: 50px;
 	border-radius: 50%;
 }
+.avatar:hover{
+   border: 2px solid hsl(26, 100%, 55%);
+}
+.cart-and-items{
+   position: relative;
+}
+.items-in-cart{
+   position: absolute;
+   top: -20px;
+   right: -10px;
+   background-color: hsl(26, 100%, 55%);
+   color: white;
+   border-radius: 25px;
+   font-weight: 700;
+   text-align: center;
+   padding: 0.3em 0.7em;
+   font-size: 0.6rem;
+   display: none;
+}
+.cart-modal{
+   position: absolute;
+   background-color: red;
+   width: 100px;
+   height: 100px;
+   top: 70px;
+   right: 50px;
+}
+.hidden{
+   display: none;
+}
+
 
 main {
 	padding: 5em 3em;

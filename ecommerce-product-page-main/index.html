@@ -28,8 +28,9 @@
 				</ul>
 
 				<ul class="cart-and-avatar">
-					<li>
-						<img src="./images/icon-cart.svg" alt="Icon of cart" class="cart" />
+					<li class="cart-and-items">
+						<img src="./images/icon-cart.svg" alt="Icon of cart" class="cart-icon" />
+            <p class="items-in-cart">0</p>
 					</li>
 					<li>
 						<img
@@ -40,6 +41,10 @@
 					</li>
 				</ul>
 			</nav>
+
+      <section class="cart-modal hidden">
+        
+      </section>
 		</header>
 
 		<main>
@@ -91,7 +96,7 @@
 						<button id="remove">
 							<img src="./images/icon-minus.svg" alt="remove from cart" />
 						</button>
-						<p>0</p>
+						<p id="quantity">0</p>
 						<button id="add">
 							<img src="./images/icon-plus.svg" alt="add to cart" />
 						</button>
@@ -110,5 +115,7 @@
 				>Frontend Mentor</a
 			>. Coded by <a href="#">Your Name Here</a>.
 		</footer>
+
+    <script src="./script.js"></script>
 	</body>
 </html>
